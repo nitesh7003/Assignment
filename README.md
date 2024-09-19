@@ -1,4 +1,4 @@
-# .NET Full Stack Developer Assignment
+![diagram-export-9-19-2024-3_39_06-AM](https://github.com/user-attachments/assets/245893b9-85e3-456f-aa13-f66dab629967)# .NET Full Stack Developer Assignment
 
 ## Introduction
 
@@ -62,8 +62,8 @@ The system architecture follows a layered structure, ensuring clear separation o
 This architecture promotes modularity, scalability, and security, adhering to best practices in full-stack development. By following this structure, the project ensures maintainability and clear separation of concerns, allowing for the seamless addition of new features and efficient management of data.
 
 
-![Database Architecture](./images/diagram-export-9-19-2024-3_39_06-AM.png)
 
+![diagram-export-9-19-2024-3_39_06-AM](https://github.com/user-attachments/assets/9c915242-0ef1-4a75-bdd2-1ec8fd1a490f)
 
 ## Design Decisions
 
