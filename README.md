@@ -62,7 +62,8 @@ The system architecture follows a layered structure, ensuring clear separation o
 This architecture promotes modularity, scalability, and security, adhering to best practices in full-stack development. By following this structure, the project ensures maintainability and clear separation of concerns, allowing for the seamless addition of new features and efficient management of data.
 
 
-![diagram-export-9-19-2024-3_39_06-AM](https://github.com/user-attachments/assets/98ddcc18-1915-42cf-a6f8-94c6fca438ab)
+![Uploading diagram-export-9-19-2024-3_39_06-AM.png…]()
+
 
 ## Design Decisions
 
