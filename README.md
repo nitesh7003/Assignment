@@ -4,31 +4,16 @@
 
 This assignment demonstrates core full-stack development skills by building a robust MVC web application using C#, SQL Server, and Web API. The focus is on secure user authentication, efficient data management, and API development. Key features include user login, data handling, and CRUD operations, with an emphasis on optimizing SQL queries for better performance. Through this project, the ability to build and manage full-stack applications effectively and securely is showcased.
 
-# Installation
-
-
-## Overview
-This project is an ASP.NET Core Web API developed using **.NET 6.0**. It implements RESTful APIs with a connection to SQL Server using Entity Framework Core (EF Core). The project includes testing API endpoints using **Postman** with a provided collection file.
-
-## Prerequisites
-- **.NET 6 SDK** installed on your machine.
-- **SQL Server** running locally or remotely for database operations.
-- **Postman** (for API testing).
-- **Entity Framework Core** (EF Core) installed via NuGet.
-
-## Installation and Setup
-
-### Step 1: Project Creation
-1. Open Visual Studio or your terminal.
-2. Create a new project using the **ASP.NET Core Web API** template.
-3. Choose **.NET 6.0** as the framework version.
-
-### Step 2: Install Required Packages
-Install the following NuGet packages via the command line or NuGet Package Manager:
-
-```bash
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 7.*
-dotnet add package Microsoft.EntityFrameworkCore.Tools --version 7.*
+ ## Installtion
+1. First, choose the  Core Web API (MVC) template, then select version 6, and create the project.
+2. Install two packages: SQL Server (version 7) and Tools (version 7).
+3. Create a folder named "Data" and add your tables there.
+4. Go to appsettings.json and connect to your local server.
+5. 5. Add middleware in program.cs:
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("db"))).
+6. 6. Create RESTful APIs using (link unavailable) Core Web API (version 6).
+Install SQL Server and Tools packages (version 7).
+7. I've included a PostMan_Collection.json file in the project to test the APIs. You can use Postman to test them (I've already tested them).
 
    
 
