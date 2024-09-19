@@ -94,6 +94,16 @@ This architecture promotes modularity, scalability, and security, adhering to be
   ![Screenshot (75)](https://github.com/user-attachments/assets/7db71a83-b2bd-4f4a-842b-9c352c044d22)
 
 
+![Screenshot (76)](https://github.com/user-attachments/assets/9953a8a7-0daa-4945-a6e1-cc4bb94e2d9b)
+
+
+![Screenshot (77)](https://github.com/user-attachments/assets/ed8fafff-b2db-4548-a517-157201a049cf)
+
+
+  ![Screenshot (78)](https://github.com/user-attachments/assets/f2106850-a9f5-43dc-ac33-5828abda715d)
+
+
+
 ### User Experience
 
 - Simple, easy-to-navigate user interface to ensure users can easily interact with the application and manage their data without hassle.
