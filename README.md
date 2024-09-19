@@ -1,4 +1,4 @@
-![diagram-export-9-19-2024-3_39_06-AM](https://github.com/user-attachments/assets/245893b9-85e3-456f-aa13-f66dab629967)# .NET Full Stack Developer Assignment
+# .NET Full Stack Developer Assignment
 
 ## Introduction
 
