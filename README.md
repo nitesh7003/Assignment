@@ -1,6 +1,6 @@
 # .NET Full Stack Developer Assignment
 
-[Visit Assignment Website](http://www.assignments.somee.com/)
+[Visit Website](http://www.assignments.somee.com/)
 
 
 ## Introduction
