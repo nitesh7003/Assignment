@@ -4,7 +4,8 @@
 
 This assignment demonstrates core full-stack development skills by building a robust MVC web application using C#, SQL Server, and Web API. The focus is on secure user authentication, efficient data management, and API development. Key features include user login, data handling, and CRUD operations, with an emphasis on optimizing SQL queries for better performance. Through this project, the ability to build and manage full-stack applications effectively and securely is showcased.
 
-# ASP.NET Core Web API Project
+# Installation
+
 
 ## Overview
 This project is an ASP.NET Core Web API developed using **.NET 6.0**. It implements RESTful APIs with a connection to SQL Server using Entity Framework Core (EF Core). The project includes testing API endpoints using **Postman** with a provided collection file.
