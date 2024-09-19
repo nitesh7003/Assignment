@@ -9,9 +9,9 @@ This assignment demonstrates core full-stack development skills by building a ro
 2. Install two packages: SQL Server (version 7) and Tools (version 7).
 3. Create a folder named "Data" and add your tables there.
 4. Go to appsettings.json and connect to your local server.
-5. 5. Add middleware in program.cs:
+ 5. Add middleware in program.cs:
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("db"))).
-6. 6. Create RESTful APIs using (link unavailable) Core Web API (version 6).
+ 6. Create RESTful APIs using (link unavailable) Core Web API (version 6).
 Install SQL Server and Tools packages (version 7).
 7. I've included a PostMan_Collection.json file in the project to test the APIs. You can use Postman to test them (I've already tested them).
 
