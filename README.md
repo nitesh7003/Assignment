@@ -91,15 +91,14 @@ This architecture promotes modularity, scalability, and security, adhering to be
 ### Performance Optimization
 
 - **SQL Query Optimization**: Focused on improving database performance by optimizing queries and adding indexes to handle data retrieval efficiently.
+  ![Screenshot (75)](https://github.com/user-attachments/assets/7db71a83-b2bd-4f4a-842b-9c352c044d22)
+
 
 ### User Experience
 
 - Simple, easy-to-navigate user interface to ensure users can easily interact with the application and manage their data without hassle.
 
 
-![image](https://github.com/user-attachments/assets/6f7039a5-0094-4bdf-97be-725507364d4e)
-![image](https://github.com/user-attachments/assets/1c3da92a-050a-429b-9ac9-b6fc64e31071)
-![image](https://github.com/user-attachments/assets/539154aa-c986-46bf-b0ef-56b6591a835c)
 
 # SQL Query Optimization 
 
