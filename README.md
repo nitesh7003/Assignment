@@ -163,5 +163,5 @@ By adding an index on ProductID and using .AsNoTracking(), the query's execution
 
 ## API Testing
 
-You can use Postman to test the API endpoints in this project. Below is a sample Postman collection to test the CRUD operations for the Product API.
+I have given one PostMan_Collection.json file , you can use this file to test the Restful Apis
 
