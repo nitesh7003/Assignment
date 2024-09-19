@@ -174,6 +174,7 @@ By adding an index on ProductID and using .AsNoTracking(), the query's execution
 - Monitor index fragmentation and maintain indexes periodically.
 
 
+![diagram-export-9-19-2024-3_39_06-AM](https://github.com/user-attachments/assets/733f7aa6-1f6d-4f35-b16c-d892435e91c6)
 
 
 ## API Testing
