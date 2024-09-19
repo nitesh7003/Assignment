@@ -1,0 +1,33 @@
+﻿@model SampleMVCAppDB.Models.RegisterViewModel
+
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card shadow-lg p-4" style="max-width: 500px; width: 100%;">
+        <h2 class="text-center mb-4">Register</h2>
+        <form asp-action="Register" method="post">
+            <div class="mb-3">
+                <label for="Username" class="form-label">Username</label>
+                <input asp-for="Username" class="form-control" id="Username" placeholder="Choose a username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" id="Email" placeholder="Enter your email address" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Password" class="form-label">Password</label>
+                <input asp-for="Password" type="password" class="form-control" id="Password" placeholder="Create a password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="ConfirmPassword" class="form-label">Confirm Password</label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm your password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Register</button>
+        </form>
+        <div class="mt-3 text-center">
+            <p>Already have an account? <a asp-controller="Authentication" asp-action="Login">Login here</a></p>
+        </div>
+    </div>
+</div>
