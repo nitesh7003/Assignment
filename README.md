@@ -1,6 +1,29 @@
 # .NET Full Stack Developer Assignment
 
 [Visit Website](http://www.assignments.somee.com/)
+## User Registration and Login Rules
+
+When registering and logging in, ensure that the details are accurate. The system will check for matches between your inputs and the stored values. Here are the specific rules:
+
+1. **Username, Email, and Password Validation**:
+    - Your **username**, **email**, and **password** must match the data stored in the database.
+    - If the details do not match, you will not be allowed to log in.
+
+2. **Duplicate User Check**:
+    - During registration, if the **username** or **email** already exists in the system, you will not be allowed to register again.
+
+3. **Password Confirmation**:
+    - Make sure the **password** and **confirm password** fields match when registering.
+
+### Example of Registration Data:
+
+- **Username**: `john`
+- **Email**: `john@gmail.com`
+- **Password**: `john@123`
+- **Confirm Password**: `john@123`
+
+Ensure that all details are entered accurately during registration. Mismatched or duplicate data will result in failed registration or login attempts.
+
 
 
 ## Introduction
