@@ -1,6 +1,6 @@
 # .NET Full Stack Developer Assignment
 
-[Visit Website](http://www.assignments.somee.com/)
+[Visit Website](http://Assignment.somee.com )
 ## User Registration and Login Rules
 
 When registering and logging in, ensure that the details are accurate. The system will check for matches between your inputs and the stored values. Here are the specific rules:
