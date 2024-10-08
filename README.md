@@ -1,5 +1,71 @@
 # .NET Full Stack Developer Assignment
 Scaffold-DbContext "Name=db" MicroSoft.EntityFrameWorkCore.Sqlserver -outputDir Models
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data.Common;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace webforcrude
+{
+    public partial class Login : System.Web.UI.Page
+    {
+        SqlConnection con;
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            string strcon =
+    ConfigurationManager.ConnectionStrings["webformConnectionString"].ConnectionString;
+             con = new SqlConnection(strcon);
+            con.Open();
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string name = TextBox1.Text;
+            string email = TextBox2.Text;
+            string password= TextBox3.Text;
+
+
+
+            string q = "exec inser  '" + name + "','" + email + "','" + password + "'";
+            SqlCommand cmd = new SqlCommand(q, con);
+            cmd.ExecuteNonQuery();
+
+
+
+        }
+    }
+}
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  https://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+
+	<connectionStrings>
+  <add name="webformConnectionString" connectionString="Data Source=DESKTOP-UHFNH81\SQLEXPRESS;Initial Catalog=nitesh;Integrated Security=True"
+   providerName="System.Data.SqlClient" />
+  <add name="niteshConnectionString" connectionString="Data Source=DESKTOP-UHFNH81\SQLEXPRESS;Initial Catalog=nitesh;Integrated Security=True"
+   providerName="System.Data.SqlClient" />
+ </connectionStrings>
+
+	<system.web>
+    <compilation debug="true" targetFramework="4.8.1" />
+    <httpRuntime targetFramework="4.8.1" />
+  </system.web>
+  <system.codedom>
+    <compilers>
+      <compiler language="c#;cs;csharp" extension=".cs" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:1659;1699;1701" />
+      <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:41008 /define:_MYTYPE=\&quot;Web\&quot; /optionInfer+" />
+    </compilers>
+  </system.codedom>
+</configuration>
 
 [Visit Website](http://Assignment.somee.com )
 ## User Registration and Login Rules
