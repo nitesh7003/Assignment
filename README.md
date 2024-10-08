@@ -1,4 +1,5 @@
 # .NET Full Stack Developer Assignment
+Scaffold-DbContext "Name=db" MicroSoft.EntityFrameWorkCore.Sqlserver -outputDir Models
 
 [Visit Website](http://Assignment.somee.com )
 ## User Registration and Login Rules
